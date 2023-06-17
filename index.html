@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .color_div label
+            {
+                cursor:pointer
+            }
+            .color_div input
+            {
+                display:none;
+            }
+            .swatch
+            {
+                display:inline-block;
+                vertical-align: middle;
+                width:30px;
+                height:30px;
+                border-radius: 50%;
+                margin:5px 5px 0 0;
+                border:1px solid #d4d4d4;
+            }
+            .color_div input[type="radio"]:checked + .swatch
+            {
+                box-shadow:inset 0 0 0 2px white;
+                transform:scale(1.25);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="color_div"> 
+            <label>
+                <input type="radio" name="color" value="red">
+                <span class="swatch" style="background-color:red"></span>
+
+
+
+            </label>
+                 <label>
+                <input type="radio" name="color" value="red">
+                <span class="swatch" style="background-color:red"></span>
+
+
+
+            </label>
+                 <label>
+                <input type="radio" name="color" value="green">
+                <span class="swatch" style="background-color:green"></span>
+
+
+
+            </label>
+                 <label>
+                <input type="radio" name="color" value="blue">
+                <span class="swatch" style="background-color:blue"></span>
+
+
+
+            </label>
+                 <label>
+                <input type="radio" name="color" value="orange">
+                <span class="swatch" style="background-color:orange"></span>
+
+
+
+            </label>
+
+
+
+        </div>
+
+
+
+
+    </body>
+
+
+
+</html>
